@@ -215,7 +215,7 @@ public class PhotosUIController {
 		}
 
 		// redirect to the main page
-		return new ModelAndView("redirect:http://localhost:8080/");
+		return new ModelAndView("redirect:http://albumsclient.azurewebsites.net");
 	}
 
 }
